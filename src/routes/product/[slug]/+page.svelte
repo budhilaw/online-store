@@ -331,4 +331,52 @@
 			</div>
 		</div>
 	{/if}
+
+	<!-- Footer -->
+	<footer class="bg-black border-t border-gray-800">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+			<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+				<div class="md:col-span-2">
+					<h3 class="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent mb-4">
+						GameTech Store
+					</h3>
+					<p class="text-gray-400 mb-4 max-w-md">
+						Indonesia's premier destination for gaming hardware and accessories. 
+						Passionate about helping gamers achieve their best performance.
+					</p>
+					<div class="flex space-x-4">
+						<span class="text-2xl">🎮</span>
+						<span class="text-2xl">⚡</span>
+						<span class="text-2xl">🏆</span>
+					</div>
+				</div>
+				
+				<div>
+					<h4 class="text-white font-semibold mb-4">Quick Links</h4>
+					<div class="space-y-2">
+						<a href="/shop" class="block text-gray-400 hover:text-cyan-400 transition-colors">Shop</a>
+						<a href="/about" class="block text-gray-400 hover:text-cyan-400 transition-colors">About</a>
+						<a href="/contact" class="block text-gray-400 hover:text-cyan-400 transition-colors">Contact</a>
+						<a href="/admin/login" class="block text-gray-400 hover:text-cyan-400 transition-colors">Admin</a>
+					</div>
+				</div>
+				
+				<div>
+					<h4 class="text-white font-semibold mb-4">Legal</h4>
+					<div class="space-y-2">
+						<a href="/terms" class="block text-gray-400 hover:text-cyan-400 transition-colors">Terms</a>
+						<a href="/privacy" class="block text-gray-400 hover:text-cyan-400 transition-colors">Privacy</a>
+						<a href="/shipping" class="block text-gray-400 hover:text-cyan-400 transition-colors">Shipping</a>
+						<a href="/returns" class="block text-gray-400 hover:text-cyan-400 transition-colors">Returns</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="border-t border-gray-800 mt-8 pt-8 text-center">
+				<p class="text-gray-400">
+					© 2024 GameTech Store. All rights reserved. Built for gamers, by gamers.
+				</p>
+			</div>
+		</div>
+	</footer>
 </div> 
